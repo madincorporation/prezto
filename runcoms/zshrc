@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+alias lla='ls -lisart'
+alias mad='cd /mad'
+
+export PATH=$PATH:/usr/local/Cellar/postgresql/12.3_4/bin
